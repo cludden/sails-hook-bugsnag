@@ -1,0 +1,8 @@
+{
+    "hooks": {
+        "grunt": false
+    },
+    "log": {
+        "level": "silly"
+    }
+}

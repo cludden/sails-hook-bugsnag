@@ -1,0 +1,40 @@
+{
+  "name": "sails-hook-bugsnag",
+  "version": "0.0.0",
+  "description": "a bugsnag hook for sails",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "scripts": {
+    "test": "mocha test/bootstrap.test.js test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cludden/sails-hook-bugsnag.git"
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "bugsnag",
+    "node",
+    "hook"
+  ],
+  "author": "chris ludden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cludden/sails-hook-bugsnag/issues"
+  },
+  "homepage": "https://github.com/cludden/sails-hook-bugsnag#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "sails": "^0.11.2",
+    "sails-disk": "^0.10.8",
+    "sinon": "^1.17.0",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "bugsnag": "^1.6.5"
+  }
+}
