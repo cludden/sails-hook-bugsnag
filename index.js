@@ -44,7 +44,6 @@ module.exports = function(sails) {
 
 
             sails.on('router:request:500', function(err, req) {
-                console.log('heard ya', err);
                 bugsnag.notify(err, {
                     req: req,
                     severity: 'error'
